@@ -86,7 +86,7 @@ function Ambient() {
 
 function Opening({ phase, onOpen }) {
   return (
-    <div className={`opening ${phase}`}>
+    <div className={`opening is-${phase}`}>
       <Ambient />
       <div className="open-inner">
         <p className="shree">|| श्री गणेशाय नमः ||</p>
